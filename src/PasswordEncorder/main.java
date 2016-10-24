@@ -3,12 +3,14 @@ package PasswordEncorder;
 import java.util.Scanner;
 public class main 
 {
-	public static void main(String[] args)
+	private Scanner scanner;
+
+	public main(String[] args)
 	{
 		PasswordEncorder use=new PasswordEncorder();
 		int flag=1;
 		String word,nword = null;
-		Scanner scanner =new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		do
 		{
 			System.out.println("Please enter a password:");

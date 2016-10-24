@@ -1,10 +1,7 @@
 package PasswordEncorder;
 
-import java.util.Scanner;
-
 public class PasswordEncorder 
 {
-	private String word;
 	public String turn(String word)
 	{
 		word = word.replace("a", "4");

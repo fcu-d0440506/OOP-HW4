@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class main 
 {
-	public static void main(String[] args)
+	private Scanner scanner;
+
+	public main(String[] args)
 	{
 		int num,i=0;
 		NissanTiida work=new NissanTiida();
-		Scanner scanner=new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		System.out.println("Please enter a number");
 		num=scanner.nextInt();
 		for(i=0;i<num;i++)
